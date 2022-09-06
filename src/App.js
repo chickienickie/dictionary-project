@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Typical from 'react-typical'
+import Dictionary from "./Dictionary"
 
 
 const steps = [
@@ -11,6 +12,9 @@ export default class App extends Component {
       <div>
         <h1>Dictionary App</h1>
         <Typical steps={steps} loop={Infinity} />
+        <main>
+          <Dictionary />
+        </main>
       </div>
     )
   }
