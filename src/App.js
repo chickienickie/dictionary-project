@@ -1,13 +1,17 @@
+import React, { Component } from 'react'
+import Typical from 'react-typical'
 
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Dictionary App</h1>
-      <h2>What word would you like to look up?</h2>
-    </div>
-  );
+const steps = [
+  'What word would you like to look up?', 2000,
+];
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <h1>Dictionary App</h1>
+        <Typical steps={steps} loop={Infinity} />
+      </div>
+    )
+  }
 }
-
-export default App;
