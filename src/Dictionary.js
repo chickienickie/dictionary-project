@@ -25,11 +25,14 @@ export default function Dictionary() {
     <div className="Dictionary">
       <form onSubmit={search}>
         <input type="search" onChange={handleKeywordChange} />
-        <input
-          type="submit"
-          value="Search"
-          className="btn btn-dark"
-        />
+        <span>
+          <input
+            type="submit"
+            value="Search"
+            className="btn btn-dark btn-sm"
+          />
+        </span>
+
       </form>
 
     </div>
