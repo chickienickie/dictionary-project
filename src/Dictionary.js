@@ -52,7 +52,7 @@ export default function Dictionary() {
 
           </form>
           <div className="hint">
-            suggested words: jet, rose, beach, sunset
+            suggested words: jet, flower, beach, sunset
           </div>
         </section>
         <Results results={results} />
