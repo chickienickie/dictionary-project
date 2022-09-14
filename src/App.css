@@ -18,6 +18,14 @@ Typical {
   font-size: 10px;
 }
 
+.App-footer a:link {
+  color: #07afb8;
+}
+
+.App-footer a:visited {
+  color: #07afb8;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 35px;
