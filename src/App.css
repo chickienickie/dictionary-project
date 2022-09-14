@@ -19,11 +19,11 @@ Typical {
 }
 
 .App-footer a:link {
-  color: #07afb8;
+  color: black;
 }
 
 .App-footer a:visited {
-  color: #07afb8;
+  color: black;
 }
 
 @media (max-width: 900px) {
