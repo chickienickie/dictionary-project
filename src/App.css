@@ -36,4 +36,8 @@ Typical {
   form {
     text-align: center;
   }
+
+  .App-footer {
+    font-size: 8px;
+  }
 }
